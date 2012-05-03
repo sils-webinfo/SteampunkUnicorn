@@ -109,10 +109,10 @@ font-size: .8em;
 height: 4em;
 }*/
 footer {
-/*    position: fixed;
+    position: fixed;
     bottom: 0;
-    right: 0;*/
-    clear: both;
+    right: 0; /*
+    clear: both; */
     width: 100%;
     text-align: right;
     font-size: .8em;
