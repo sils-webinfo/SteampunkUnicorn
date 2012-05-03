@@ -1,6 +1,6 @@
 **ID attribute values**   
-*SearchArtist* -- Applied to a *form*, used for templated query links leading to a resource of Artists.   
-*SearchAlbumName* -- Applied to a *form*, used for templated query links leading to a resource of Albums.   
+*SearchArtist* -- Applied to a `<form>`, used for templated query links leading to a resource of Artists.   
+*SearchAlbumName* -- Applied to a `<form>`, used for templated query links leading to a resource of Albums.   
 *SearchAlbumDate* -- Applied to a *form*, used for templated query links leading to a resource of Albums.   
 *SearchSongName* -- Applied to a *form*, used for templated query links leading to a resource of Songs.   
 *SearchSongGenre* -- Applied to a *form*, used for templated query links leading to a resource of Songs.   
@@ -41,18 +41,18 @@
 *allSongs* -- Used on an *a* element, describing the linked resource as the representation for all songs.   
 
 **Ontology**   
--Thing   
-    -name   
-    -CreativeWork   
-        -datePublished → Date   
-        -genre → Text   
-        -MusicRecording   
-            -byArtist → MusicGroup   
-            -duration → Duration   
-            -inAlbum → MusicAlbum   
-            -keys → Text (Extension)   
-            -tempos → Range (Extension)   
-    -Organization   
-        -PerformingGroup   
-            -MusicGroup   
-                -albums → MusicAlbum   
+- Thing   
+    - name   
+    - CreativeWork   
+        - datePublished → Date   
+        - genre → Text   
+        - MusicRecording   
+            - byArtist → MusicGroup   
+            - duration → Duration   
+            - inAlbum → MusicAlbum   
+            - keys → Text (Extension)   
+            - tempos → Range (Extension)   
+    - Organization   
+        - PerformingGroup   
+            - MusicGroup   
+                - albums → MusicAlbum   
