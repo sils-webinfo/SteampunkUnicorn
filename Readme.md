@@ -6,7 +6,7 @@
 *SearchSongGenre* -- Applied to a `<form>`, used for templated query links leading to a resource of Songs.   
 *SearchSongKey* -- Applied to a `<form>`, used for templated query links leading to a resource of Songs.   
 *SearchSongTempo* -- Applied to a `<form>`, used for templated query links leading to a resource of Songs.   
-*Artists* -- Applied to a *ul*, used for identifying a list of all Artists.   
+*Artists* -- Applied to a `<ul>`, used for identifying a list of all Artists.   
 *NewArtist* --  Applied to a `<form>`, used to template the URI for creating a new Artist resource using POST.   
 *NewArtistValue* -- Applied to a `<form>`, used to template the URI for updating an Artist resource using PUT.   
 *Songs* -- Applied to an `<ul>`, used for identifying the Songs in an Album resource.   
