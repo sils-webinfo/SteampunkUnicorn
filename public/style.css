@@ -110,6 +110,9 @@ height: 4em;
 
 .copyright
 {
+-moz-column-width:100px; /* Firefox */
+-webkit-column-width:100px; /* Safari and Chrome */
+column-width:100px;
     font-size: .8em;
     vertical-align: middle;
 }
